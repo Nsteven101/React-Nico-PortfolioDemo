@@ -135,7 +135,7 @@ a {
   position: absolute;
   width: 700px;
   height: auto;
-  bottom: 370px;
+  bottom: 320px;
   opacity: 0;
   animation: logoEntrance 1.2s ease-out forwards;
     z-index: -1;
