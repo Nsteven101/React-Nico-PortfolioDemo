@@ -1,8 +1,12 @@
+import headimg from '../assets/damn.jpg';
+
 function About() {
   return (
-    <div>
+    <div className="about-container">
       <h1>About Me</h1>
       <div className="home-description">
+                      <img src={headimg} className="home-picture" alt="headshot"></img>
+
         <p>
           Hi, I’m Nico — Software Engineering Technician @ Centennial College, a web developer and coding instructor passionate about building interactive
           web applications and intuitive user interfaces. 
@@ -14,6 +18,14 @@ function About() {
         <p>
           Currently studying Javascript, C#, Python, Html and CSS, and Java.
         </p>
+            <a
+  href="/nicoresume.pdf"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="resume-link"
+>
+  View My Resume (PDF)
+</a>
       </div>
     </div>
   );
