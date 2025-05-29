@@ -14,7 +14,7 @@ body {
   justify-content: flex-start;  /* Change from center to top-aligned */
   align-items: center;
   text-align: center;
-  margin-top: 22rem;
+  margin-top: 2rem;
 }
 
 .home-title {
@@ -132,10 +132,8 @@ a {
 }
 
 .lgo {
-  position: absolute;
-  width: 700px;
+  width: 400px;
   height: auto;
-  bottom: 320px;
   opacity: 0;
   animation: logoEntrance 1.2s ease-out forwards;
     z-index: -1;
